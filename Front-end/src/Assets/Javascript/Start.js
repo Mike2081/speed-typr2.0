@@ -18,7 +18,6 @@ export default class Start extends Component {
             <div className='title'>
                 Speed Typr
             </div>
-            <img src='https://media.giphy.com/media/11M1k4fIwVqPF6/giphy.gif' alt='jim carry typing' className='gif' />
             <div className='background'></div>
       </div>
     )
