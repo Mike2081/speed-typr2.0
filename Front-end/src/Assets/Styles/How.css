@@ -6,7 +6,7 @@
   min-width: 120rem;
   min-height: 71rem;
   bottom: 0rem;
-  right: .009rem;
+  right: 0.009rem;
 }
 
 .home {
@@ -33,11 +33,10 @@
   border: solid 4px;
   border-radius: 6px;
   position: relative;
-  width: 64rem;
-  height: 15rem;
+  width: 84%;
+  height: auto;
   top: 8rem;
-  left: 26rem;
-  font-size: 4rem;
-  padding: 2.5rem;
+  left: 8%;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=How.css.map */

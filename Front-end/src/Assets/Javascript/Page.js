@@ -29,7 +29,7 @@ export default class Page extends Component {
         ],
             input: '',
             score:0,
-            count: 20
+            count: 15
         }
     };
     handleChange = (e) =>{
@@ -94,8 +94,17 @@ export default class Page extends Component {
         <div className='timer'>
             Timer:{this.state.count}
         </div>
-        <form className='search' onSubmit={(event)=>this.handlekey(event)} onChange={this.handleChange}>
-            <input className = 'textBar' type ="reset" type='text' ref={this.input} value={this.state.input} />
+        <form 
+          className='search' 
+          onSubmit={(event)=>this.handlekey(event)} 
+          onChange={this.handleChange}
+        >
+            <input 
+              className = 'textBar' 
+              type ="reset" 
+              type='text' 
+              ref={this.input} 
+              value={this.state.input} />
         </form>
         <Link to={'/start'}>
             <button className='retry'>Try again</button>

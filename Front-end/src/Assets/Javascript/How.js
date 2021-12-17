@@ -14,7 +14,9 @@ export default class How extends Component {
           How to play
         </div>
         <div className='info'>
-          Double click the start button and type as many words as you can before the timer runs out!
+          After hitting the start button. Click on the white 
+          text bar and type the words falling from the screen as fast 
+          as you can!
         </div>
         <div className='color'></div>
       </div>

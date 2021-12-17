@@ -4,6 +4,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0.7vw;
 }
 
 .search {
@@ -14,23 +15,23 @@
 
 .score {
   position: fixed;
-  top: 1rem;
-  left: 113rem;
+  top: 3.1em;
+  left: 1em;
   font-size: 1.6rem;
   color: aliceblue;
 }
 
 .timer {
   position: fixed;
-  top: 3rem;
-  left: 113rem;
+  top: 5em;
+  left: 1em;
   font-size: 1.6rem;
   color: aliceblue;
 }
 
 .retry {
-  top: 2rem;
-  right: 8rem;
+  top: 5rem;
+  right: 2rem;
   position: fixed;
   background-color: dimgray;
   height: 3rem;
@@ -53,9 +54,11 @@
 
 .textBar {
   height: 4rem;
-  width: 17rem;
+  width: 18rem;
   font-size: 2rem;
   border-radius: 12px;
+  position: relative;
+  left: -266%;
 }
 
 @-webkit-keyframes move {
